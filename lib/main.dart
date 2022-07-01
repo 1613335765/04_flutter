@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return new MaterialApp(
-      title: 'homework_04_Container',
+      title: '04_flutter',
       home: new Scaffold(
         appBar: new AppBar(
-          title: Text('homework_04_Container'),
+          title: Text('04_flutter'),
         ),
         body: new Column(
           children: <Widget>[
@@ -42,7 +42,7 @@ class MyApp extends StatelessWidget {
               padding: EdgeInsets.all(20.0),
               child: DecoratedBox(
                 decoration: BoxDecoration(color: Colors.orange),
-                child: Text("Hello world!"),
+                child: Text("hello world"),
               ),
             ),
             new Container(
@@ -71,7 +71,7 @@ class MyApp extends StatelessWidget {
                 new Container(
                   margin: EdgeInsets.all(20.0), //容器外补白
                   color: Colors.orange,
-                  child: Text("Hello world!"),
+                  child: Text("hello world"),
                 ),
                 new Padding(
                   padding: const EdgeInsets.all(16),
@@ -123,18 +123,18 @@ class MyApp extends StatelessWidget {
                   alignment: Alignment.center, //卡片内文字居中
                   child: Text(
                     //卡片文字
-                    "5.20",
-                    style: TextStyle(color: Colors.white, fontSize: 40.0),
+                    "111",
+                    style: TextStyle(color: Colors.lightBlue, fontSize: 40.0),
                   ),
                 ),
                 new Column(),
                 new Center(
                   child: Column(
                     children: [
-                      wRow(' 90000000000000000 '),
-                      FittedBox(child: wRow(' 90000000000000000 ')),
+                      wRow(' 11111111111 '),
+                      FittedBox(child: wRow('2222222222222222222')),
                       wRow(' 800 '),
-                      FittedBox(child: wRow(' 800 ')),
+                      FittedBox(child: wRow('33333333333333333333')),
                     ]
                         .map((e) => Padding(
                               padding: EdgeInsets.symmetric(vertical: 20),
