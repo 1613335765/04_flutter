@@ -155,7 +155,7 @@ class MyApp extends StatelessWidget {
 Widget wRow(String text) {
   Widget child = Text(text);
   child = Row(
-    mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+    mainAxisAlignment : MainAxisAlignment.spaceEvenly,
     children: [child, child, child],
   );
   return child;
